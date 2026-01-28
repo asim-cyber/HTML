@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Registration Form</title>
+</head>
+<body>
+
+    <h2>Registration Form</h2>
+
+    <form>
+        <p>
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name">
+        </p>
+
+        <p>
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name">
+        </p>
+
+        <p>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+        </p>
+
+        <p>
+            <label for="bio">Bio:</label><br>
+            <textarea id="bio" name="bio" rows="4" cols="40"></textarea>
+        </p>
+
+        <fieldset>
+            <legend>Gender:</legend>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Interests:</legend>
+            <input type="checkbox" id="music" name="interests" value="music">
+            <label for="music">Music</label><br>
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="sports">Sports</label><br>
+            <input type="checkbox" id="reading" name="interests" value="reading">
+            <label for="reading">Reading</label>
+        </fieldset>
+
+        <br>
+
+        <p>
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="us">United States</option>
+                <option value="uk">United Kingdom</option>
+                <option value="ca">Canada</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="colors">Preferred Colors:</label>
+            <select id="colors" name="colors" size="4" multiple>
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+                <option value="yellow">Yellow</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="profile-pic">Profile Picture:</label>
+            <input type="file" id="profile-pic" name="profile-pic">
+        </p>
+
+        <p>
+            <label for="birthdate">Birthdate:</label>
+            <input type="date" id="birthdate" name="birthdate">
+        </p>
+
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </p>
+
+        <p>
+            <label for="website">Website:</label>
+            <input type="url" id="website" name="website">
+        </p>
+
+        <p>
+            <label for="search">Search:</label>
+            <input type="search" id="search" name="search">
+        </p>
+
+        <p>
+            <input type="submit" value="Submit">
+        </p>
+
+    </form>
+
+</body>
+</html>
