@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Registration Form</title>
+</head>
+<body>
+
+<h2>Event Registration Form</h2>
+
+<form>
+    <p>
+        Name:
+        <input type="text" required>
+    </p>
+
+    <p>
+        Email Address:
+        <input type="email" required>
+    </p>
+
+    <p>
+        Session Time:
+        <select required>
+            <option value="">Select</option>
+            <option>Morning</option>
+            <option>Afternoon</option>
+            <option>Evening</option>
+        </select>
+    </p>
+
+    <p>
+        Number of Guests:
+        <input type="number" min="1" max="5" required>
+    </p>
+
+    <input type="submit" value="Register">
+
+</form>
+
+</body>
+</html>
